@@ -1,0 +1,25 @@
+{
+  "name": "server191115-rest",
+  "version": "0.0.1",
+  "description": "NodeJS Server",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/simple-http.js",
+    "start-http": "node src/simple-http.js",
+    "start-rest": "node src/simple-rest.js",
+    "start-socket": "node src/simple-socket.js",
+    "start-koa": "node src/simple-koa.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akatenshi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "method-override": "^3.0.0",
+    "ws": "^7.2.0"
+  }
+}

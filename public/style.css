@@ -1,0 +1,24 @@
+body {
+    background-color: #efefef;
+    font-size: 0.9em;
+    color: #222;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: #fff;
+    position: relative;
+    width: 90%;
+    max-width: 1024px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 80%;
+}
